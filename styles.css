@@ -98,3 +98,25 @@ ul {
     border: 3px solid rgb(0, 91, 196);
     border-radius: 16px;
 }
+
+.section-quote-container {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    justify-content: center;
+    align-items: center;;
+    padding: 50px 324px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 700;
+}
