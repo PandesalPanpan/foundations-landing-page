@@ -10,6 +10,8 @@ body {
 
 .top-background-container {
     background-color: #1F2937;
+    color: rgb(212, 212, 212);
+    padding-bottom: 50px;
 }
 
 .hero-image {
@@ -64,4 +66,35 @@ ul {
     border-radius: 8px;
     font-weight: 600;
     color: white;
+}
+
+.section-information-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    max-width: 150px;
+    text-align: center;
+    color: #747577;
+}
+
+.card img {
+    border: 3px solid rgb(0, 91, 196);
+    border-radius: 16px;
 }
