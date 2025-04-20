@@ -120,3 +120,49 @@ ul {
     align-self: flex-end;
     font-weight: 700;
 }
+
+.section-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 50px;
+    color: white;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px 80px;
+    border-radius: 8px;
+    min-width: 750px;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.cta-box p {
+    font-size: 12px;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cta-text p {
+    font-size: 12px;
+    margin: 0;
+    color: rgb(238, 234, 234);
+}
+
+.cta-box button {
+    background-color: #3882F6;
+    border: 1.5px solid white;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
